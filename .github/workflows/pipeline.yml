@@ -53,7 +53,7 @@ jobs:
       # Dica: instale com "pip install semgrep" e rode
       #   semgrep scan --config auto --config p/xss --error src/
       - name: 🔍 SAST - Semgrep
-        run: 
+        run: |
           pip install semgrep
           semgrep scan --config auto --error src/
 
