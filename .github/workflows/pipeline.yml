@@ -149,7 +149,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
-git commit --allow-empty -m "test: primeiro disparo da pipeline
+
       # Realiza o deploy
       - name: 🚀 Deploy em Produção
         id: deployment
