@@ -23,8 +23,7 @@ A pipeline está **incompleta**. Os steps de segurança precisam ser implementad
 - [ ] Deploy com **GitHub Pages**
 
 ## Como a pipeline funciona
-> **Substitua este bloco pela sua explicação após implementar a pipeline.**
-> Descreva cada step, o que ele faz e por que ele é importante para a segurança.
-
+A pipeline funciona como uma linha de produção, constituída por fases ou etapas, e desta forma todas as áreas atuam na segurança do projeto final, podendo identificar em cada passo uma vulnerabilidade e fazer a devida correção, antes de chegar no processamento final (deploy) e haver perda de tempo tentando identificar em qual das etapas houve a falha de segurança e tendo que retroagir todo o processo e refazê-lo. Ocorre a perda de tempo, dinheiro e o atraso na entrega pode ocasionar o custo de imagem e credibilidade da empresa.
+Nesta pipeline, em cada passo, houve a verificaçõ e correção, não prejudicando a esteira da produção final
 ## URL de Produção
-> Adicione aqui o link do GitHub Pages após o deploy.
+https://segcibgit1.github.io/projeto-devsecop-desafio/
